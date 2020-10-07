@@ -84,7 +84,7 @@ You just need to clone it, yarn it & start it!
 
 ## Tips
 
-If you want to save large strings, like the stringified JSON of a drawing, I recommend you to use [pieroxy/lz-string](https://github.com/pieroxy/lz-string) for compression. It's LZ compression will bring down your long strings to only ~10% of it's original size.
+If you want to save large strings, like the stringified JSON of a drawing, I recommend you  use [pieroxy/lz-string](https://github.com/pieroxy/lz-string) for compression. It's LZ compression will bring down your long strings to only ~10% of its original size.
 
 ## Acknowledgement
 

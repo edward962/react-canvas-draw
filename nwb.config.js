@@ -13,7 +13,7 @@ module.exports = {
     rules: {
       css: {
         modules: {
-        localIdentName: '[local]__[hash:base64:5]',
+          localIdentName: '[local]__[hash:base64:5]',
         }
       }
     }

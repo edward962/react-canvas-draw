@@ -7,7 +7,7 @@ import ResizeObserver from "resize-observer-polyfill";
 
 import CoordinateSystem, { IDENTITY } from "./coordinateSystem";
 import drawImage from "./drawImage";
-import { DefaultState } from "./ interactionStateMachine.js ";
+import { DefaultState } from "./interactionStateMachine";
 import makePassiveEventOption from "./makePassiveEventOption";
 
 function midPointBtw(p1, p2) {
