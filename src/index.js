@@ -350,6 +350,10 @@ export default class CanvasDraw extends PureComponent {
     if (!this.props.enablePanAndZoom) {
       this.coordSystem.resetView();
     }
+    
+    if (prevProps.imgSrc !== this.props.imgSrc) {
+      this.drawImage();
+    }
   }
 
   componentWillUnmount = () => {
